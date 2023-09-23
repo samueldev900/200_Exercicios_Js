@@ -1,11 +1,21 @@
-var num2 = 51;
-var num = 0
+let min = 1;
+let max = 100;
 
+let chute = Math.floor((max+ min)/2);
+let numeroPensado =  55;
 
-while(num != num2){
+while(chute!== numeroPensado){
 
-    const num = Math.floor(Math.random() * 100+ 1);
-
+    if(chute > numeroPensado){
+        max = chute;
+    }
+        
+    else{
+        min = chute;
+    }
+        
+    chute = Math.floor((max + min)/2);
 }
 
-console.log(`Adivinhei o seu número é ${num}`)
+console.log('O numero pensado é:' + chute)
+

@@ -3,8 +3,6 @@ function fatorial(n){
     res = 0;
 
 
-
-
     for(let i = n1;i >= 0; i--){
 
         console.log(i)
@@ -16,6 +14,6 @@ function fatorial(n){
 
 }
 
-fatorial(10)
+fatorial(30)
 
 

@@ -11,11 +11,6 @@ function fatorial(n){
 
     }
 
-  
-
-
 }
 
-fatorial(10)
-
-
+fatorial(5)
